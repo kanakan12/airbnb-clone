@@ -13,3 +13,29 @@ Cloning Airbnb with Pyton, Django, Tailwind
 7. $ git commit -m "커밋 내용"
 8. touch로 파일 생성 가능 ex) $ touch README.md / $ touch .gitignore
 9. $ git push origin master // github 주소에 push
+
+## pipenv isntall
+
+1. $ brew install pipenv // 가상환경 설치 ex) node.js의 npm같은 것
+
+## evn setting
+
+1. $ pipenv --three // python3 버전 사용
+2. $ pipenv shell // python 가상환경 실행
+
+## Django, flake8, black install
+
+1. pipenv install Django==[version] // version: 2.2.5 사용 중
+2. pipenv install flake8 // Linter: 에러가 발생하는 부분을 감지
+3. pipenv install black // formatter: format code
+
+## run python server
+
+1. python [file] runserver // file: manage.py 사용 중
+2. python [file] migrate // file: manage.py 사용 중 // 하나의 상태에서 다른 상태로, 다른 데이터 유형으로 바꿈
+3. python [file] createsuperuser // file: manage.py 사용 중 // 관리자용 계정 생성
+
+## django-admin startapp
+
+1. django-admin startapp [file] // file: 복수형으로 사용할 것 ex) users, reviews
+2. rm -rf [file] // file: 삭제할 file name
