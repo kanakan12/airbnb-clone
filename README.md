@@ -12,4 +12,4 @@ Cloning Airbnb with Pyton, Django, Tailwind
 6. $ git add .
 7. $ git commit -m "커밋 내용"
 8. touch로 파일 생성 가능 ex) $ touch README.md / $ touch .gitignore
-9.
+9. $ git push origin master // github 주소에 push
