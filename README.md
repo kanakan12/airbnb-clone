@@ -25,17 +25,22 @@ Cloning Airbnb with Pyton, Django, Tailwind
 
 ## Django, flake8, black install
 
-1. pipenv install Django==[version] // version: 2.2.5 사용 중
-2. pipenv install flake8 // Linter: 에러가 발생하는 부분을 감지
-3. pipenv install black // formatter: format code
+1. $ pipenv install Django==[version] // version: 2.2.5 사용 중
+2. $ pipenv install flake8 // Linter: 에러가 발생하는 부분을 감지
+3. $ pipenv install black // formatter: format code
 
 ## run python server
 
-1. python [file] runserver // file: manage.py 사용 중
-2. python [file] migrate // file: manage.py 사용 중 // 하나의 상태에서 다른 상태로, 다른 데이터 유형으로 바꿈
-3. python [file] createsuperuser // file: manage.py 사용 중 // 관리자용 계정 생성
+1. $ python [file] runserver // file: manage.py 사용 중
+2. $ python [file] migrate // file: manage.py 사용 중 // 하나의 상태에서 다른 상태로, 다른 데이터 유형으로 바꿈
+3. $ python [file] createsuperuser // file: manage.py 사용 중 // 관리자용 계정 생성
 
 ## django-admin startapp
 
-1. django-admin startapp [file] // file: 복수형으로 사용할 것 ex) users, reviews
-2. rm -rf [file] // file: 삭제할 file name
+1. $ django-admin startapp [file] // file: 복수형으로 사용할 것 ex) users, reviews
+2. $ rm -rf [file] // file: 삭제할 file name
+
+## python migration
+
+1. $ python [file] makemigrations // migration 생성
+2. $ python [file] migrate // file: manage.py 사용 중 // 하나의 상태에서 다른 상태로, 다른 데이터 유형으로 바꿈
