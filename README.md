@@ -44,3 +44,12 @@ Cloning Airbnb with Pyton, Django, Tailwind
 
 1. $ python [file] makemigrations // migration 생성
 2. $ python [file] migrate // file: manage.py 사용 중 // 하나의 상태에서 다른 상태로, 다른 데이터 유형으로 바꿈
+
+## django core
+
+1. $ django-admin startapp core
+
+## django country
+
+1. $ pipenv install django-countries
+2. $ add django_countries to 'INSTALLED_APPS' // THIRD_PARTY_APPS
