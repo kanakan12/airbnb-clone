@@ -53,7 +53,7 @@ PROJECT_APP = [
     "conversations.apps.ConversationsConfig"
 ]
 
-INSTALLED_APPS = DJANGO_APPS + PROJECT_APP
+INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APP
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
