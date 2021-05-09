@@ -53,3 +53,8 @@ Cloning Airbnb with Pyton, Django, Tailwind
 
 1. $ pipenv install django-countries
 2. $ add django_countries to 'INSTALLED_APPS' // THIRD_PARTY_APPS
+
+## django translation
+
+1. $ django-admin makemessages --locale=es // 번역하기 위한 언어 setting ex) es=spanish
+2. $ dajngo-admin compilemessages

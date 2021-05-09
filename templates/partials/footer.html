@@ -1,3 +1,11 @@
+{% load i18n %}
 <footer class="container mx-auto text-center py-20 border-t font-medium text-gray-400">
     &copy; 2021 Airbnb, Inc.
+    <div class="mt-10 flex">
+        {% get_current_language as LANGUAGE_CODE %}
+        <select class="w-1/5 h-10" id="js-lang">
+            <option value {% if LANGUAGE_CODE == 'en' %} selected {% endif %}="en">English</option>
+            <option value {% if LANGUAGE_CODE == 'es' %} selected {% endif %}="es">Spanish</option>
+        </select>
+    </div>
 </footer>
